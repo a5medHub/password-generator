@@ -23,4 +23,6 @@ p {
 .flex-content-1 {
   display: flex;
   justify-content: space-between;
+  margin: 20px 0;
+  padding: 20px 0;
 }
