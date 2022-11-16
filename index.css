@@ -21,4 +21,5 @@ p {
 }
 
 .flex-content-1 {
+  display: flex;
 }
