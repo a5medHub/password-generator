@@ -33,3 +33,7 @@ p {
   display: flex;
   justify-content: space-around;
 }
+
+#password-one,
+#password-two {
+}
