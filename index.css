@@ -30,4 +30,5 @@ p {
 }
 
 .flex-content-2 {
+  display: flex;
 }
