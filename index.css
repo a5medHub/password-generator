@@ -38,4 +38,5 @@ p {
 #password-two {
   color: #55f991;
   background: #273549;
+  border-radius: 6px;
 }
