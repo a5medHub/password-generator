@@ -138,3 +138,4 @@ function checkedCheckBox() {
             console.log(checkedBoxArray + "numbers")
           }
         }
+      }
