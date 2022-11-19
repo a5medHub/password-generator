@@ -119,3 +119,4 @@ function checkedCheckBox() {
     && checkboxNumbers.checked
     && checkboxSymbols.checked){
       for (let i = 0; i<characters.length; i++) {
+        checkedBoxArray.push(characters[i])
