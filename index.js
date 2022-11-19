@@ -137,3 +137,4 @@ function checkedCheckBox() {
             checkedBoxArray.push(numbers[j])
             console.log(checkedBoxArray + "numbers")
           }
+        }
