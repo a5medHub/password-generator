@@ -174,3 +174,4 @@ function generatePassword() {
   fillLabels();
 }
 function fillLabels(){
+  passwordOne.textContent = arrayOne
