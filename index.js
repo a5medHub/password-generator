@@ -147,3 +147,4 @@ function checkedCheckBox() {
 }
 function checkedRadio() {
   if (radioFive.checked === true){
+    passwordLenght = 5
