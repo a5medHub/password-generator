@@ -169,3 +169,4 @@ function generatePassword(){
                 arrayTwo.push(checkedBoxArray[randomPasswordTwo])
     }
   }
+  fillLabels()
