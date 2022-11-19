@@ -122,3 +122,4 @@ function checkedCheckBox() {
         checkedBoxArray.push(characters[i])
         for (let j = 0; j<numbers.length; j++) {
           checkedBoxArray.push(numbers[j])
+          for (let k = 0; k<symbols.length; k++) {
