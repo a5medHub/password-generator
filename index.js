@@ -178,3 +178,4 @@ function fillLabels() {
   passwordTwo.textContent = arrayTwo;
   resetArr();
 }
+function resetArr() {
