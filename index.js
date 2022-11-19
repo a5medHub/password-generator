@@ -101,3 +101,4 @@ let checkboxCharacters = document.getElementById("checkbox-characters");
 let checkboxNumbers = document.getElementById("checkbox-numbers");
 let checkboxSymbols = document.getElementById("checkbox-symbols");
 let generateBtn = document.getElementById("generate-btn");
+let radioFive = document.getElementById("radio-five");
