@@ -114,3 +114,4 @@ function renderRandomPassword() {
   checkedCheckBox();
 }
 function checkedCheckBox() {
+  checkedBoxArray = []
