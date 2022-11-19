@@ -182,3 +182,4 @@ function resetArr() {
   arrayOne = [];
   arrayTwo = [];
 }
+generatePassword();
