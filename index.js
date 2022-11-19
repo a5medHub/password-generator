@@ -105,3 +105,4 @@ let radioFive = document.getElementById("radio-five");
 let radioTen = document.getElementById("radio-ten");
 let radioFifteen = document.getElementById("radio-fifteen");
 let passwordOne = document.getElementById("password-one");
+let passwordTwo = document.getElementById("password-two");
