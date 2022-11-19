@@ -132,3 +132,4 @@ function checkedCheckBox() {
       && checkboxSymbols.checked === false){
         for (let i = 0; i<characters.length; i++) {
           checkedBoxArray.push(characters[i])
+          console.log(checkedBoxArray + "letters")
