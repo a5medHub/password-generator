@@ -115,3 +115,4 @@ function renderRandomPassword() {
 }
 function checkedCheckBox() {
   checkedBoxArray = []
+  if (checkboxCharacters.checked 
