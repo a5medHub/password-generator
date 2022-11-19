@@ -110,3 +110,4 @@ let arrayOne = [];
 let arrayTwo = [];
 let checkedBoxArray = [];
 let passwordLenght = 0;
+function renderRandomPassword() {}
