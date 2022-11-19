@@ -173,7 +173,8 @@ function generatePassword() {
   }
   fillLabels();
 }
-function fillLabels(){
-  passwordOne.textContent = arrayOne
-  passwordTwo.textContent = arrayTwo
-  resetArr()
+function fillLabels() {
+  passwordOne.textContent = arrayOne;
+  passwordTwo.textContent = arrayTwo;
+  resetArr();
+}
