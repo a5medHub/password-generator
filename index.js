@@ -180,3 +180,4 @@ function fillLabels() {
 }
 function resetArr() {
   arrayOne = []
+  arrayTwo = []
