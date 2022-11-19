@@ -156,3 +156,4 @@ function checkedRadio() {
   generatePassword();
 }
 function generatePassword(){
+  if (arrayOne.length>0) {
