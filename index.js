@@ -160,3 +160,6 @@ function generatePassword(){
     resetArr()
   } else {
     for (let i=0; i<passwordLenght; i++){
+      let randomPasswordOne = 
+                Math.floor(Math.random(checkedBoxArray)*checkedBoxArray.length)
+                arrayOne.push(checkedBoxArray[randomPasswordOne])
