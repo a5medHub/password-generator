@@ -96,3 +96,5 @@ themeBtn.addEventListener("click", function onClick(event) {
   // 👇️ optionally change text color
   //document.body.style.color = 'white';
 });
+
+let checkboxCharacters = document.getElementById("checkbox-characters");
