@@ -153,3 +153,4 @@ function checkedRadio() {
   }else if (radioFifteen.checked === true){
     passwordLenght = 15
   }
+  generatePassword() 
