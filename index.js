@@ -173,3 +173,4 @@ function generatePassword() {
   }
   fillLabels();
 }
+function fillLabels(){
