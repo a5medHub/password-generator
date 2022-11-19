@@ -84,3 +84,5 @@ const symbols = [
   "?",
   "/",
 ];
+let themeBtn = document.getElementById("theme-Btn");
+themeBtn.addEventListener("click", function onClick(event) {});
