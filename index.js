@@ -145,3 +145,4 @@ function checkedCheckBox() {
   }
   checkedRadio();
 }
+function checkedRadio() {
