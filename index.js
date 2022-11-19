@@ -114,29 +114,34 @@ function renderRandomPassword() {
   checkedCheckBox();
 }
 function checkedCheckBox() {
-  checkedBoxArray = []
-  if (checkboxCharacters.checked 
-    && checkboxNumbers.checked
-    && checkboxSymbols.checked){
-      for (let i = 0; i<characters.length; i++) {
-        checkedBoxArray.push(characters[i])
-        for (let j = 0; j<numbers.length; j++) {
-          checkedBoxArray.push(numbers[j])
-          for (let k = 0; k<symbols.length; k++) {
-            checkedBoxArray.push(symbols[k])
-          }
+  checkedBoxArray = [];
+  if (
+    checkboxCharacters.checked &&
+    checkboxNumbers.checked &&
+    checkboxSymbols.checked
+  ) {
+    for (let i = 0; i < characters.length; i++) {
+      checkedBoxArray.push(characters[i]);
+      for (let j = 0; j < numbers.length; j++) {
+        checkedBoxArray.push(numbers[j]);
+        for (let k = 0; k < symbols.length; k++) {
+          checkedBoxArray.push(symbols[k]);
         }
       }
-    }else if(checkboxCharacters.checked 
-      && checkboxNumbers.checked 
-      && checkboxSymbols.checked === false){
-        for (let i = 0; i<characters.length; i++) {
-          checkedBoxArray.push(characters[i])
-          console.log(checkedBoxArray + "letters")
-          for (let j = 0; j<numbers.length; j++) {
-            checkedBoxArray.push(numbers[j])
-            console.log(checkedBoxArray + "numbers")
-          }
-        }
+    }
+  } else if (
+    checkboxCharacters.checked &&
+    checkboxNumbers.checked &&
+    checkboxSymbols.checked === false
+  ) {
+    for (let i = 0; i < characters.length; i++) {
+      checkedBoxArray.push(characters[i]);
+      console.log(checkedBoxArray + "letters");
+      for (let j = 0; j < numbers.length; j++) {
+        checkedBoxArray.push(numbers[j]);
+        console.log(checkedBoxArray + "numbers");
       }
-      checkedRadio()
+    }
+  }
+  checkedRadio();
+}
