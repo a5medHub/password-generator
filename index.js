@@ -163,3 +163,7 @@ function generatePassword(){
       let randomPasswordOne = 
                 Math.floor(Math.random(checkedBoxArray)*checkedBoxArray.length)
                 arrayOne.push(checkedBoxArray[randomPasswordOne])
+
+                let randomPasswordTwo = 
+                Math.floor(Math.random(checkedBoxArray)*checkedBoxArray.length)
+                arrayTwo.push(checkedBoxArray[randomPasswordTwo])
