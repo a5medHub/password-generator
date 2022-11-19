@@ -149,3 +149,4 @@ function checkedRadio() {
   if (radioFive.checked === true){
     passwordLenght = 5
   }else if (radioTen.checked === true){
+    passwordLenght = 10
