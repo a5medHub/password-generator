@@ -179,3 +179,4 @@ function fillLabels() {
   resetArr();
 }
 function resetArr() {
+  arrayOne = []
