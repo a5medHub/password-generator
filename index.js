@@ -90,5 +90,9 @@ themeBtn.addEventListener("click", function onClick(event) {
   if ((document.body.style.backgroundColor = "#1F2937")) {
     //dark
     document.body.style.backgroundColor = "#ECFDF5"; //light
+  } else {
+    document.body.style.backgroundColor = "#1F2937";
   }
+  // 👇️ optionally change text color
+  //document.body.style.color = 'white';
 });
