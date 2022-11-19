@@ -175,3 +175,4 @@ function generatePassword() {
 }
 function fillLabels(){
   passwordOne.textContent = arrayOne
+  passwordTwo.textContent = arrayTwo
