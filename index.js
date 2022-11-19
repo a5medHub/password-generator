@@ -117,3 +117,4 @@ function checkedCheckBox() {
   checkedBoxArray = []
   if (checkboxCharacters.checked 
     && checkboxNumbers.checked
+    && checkboxSymbols.checked){
