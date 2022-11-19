@@ -126,3 +126,4 @@ function checkedCheckBox() {
             checkedBoxArray.push(symbols[k])
           }
         }
+      }
