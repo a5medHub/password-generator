@@ -130,3 +130,4 @@ function checkedCheckBox() {
     }else if(checkboxCharacters.checked 
       && checkboxNumbers.checked 
       && checkboxSymbols.checked === false){
+        for (let i = 0; i<characters.length; i++) {
