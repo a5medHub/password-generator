@@ -108,3 +108,4 @@ let passwordOne = document.getElementById("password-one");
 let passwordTwo = document.getElementById("password-two");
 let arrayOne = [];
 let arrayTwo = [];
+let checkedBoxArray = [];
