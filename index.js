@@ -146,3 +146,4 @@ function checkedCheckBox() {
   checkedRadio();
 }
 function checkedRadio() {
+  if (radioFive.checked === true){
