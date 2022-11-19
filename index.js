@@ -155,18 +155,21 @@ function checkedRadio() {
   }
   generatePassword();
 }
-function generatePassword(){
-  if (arrayOne.length>0) {
-    resetArr()
+function generatePassword() {
+  if (arrayOne.length > 0) {
+    resetArr();
   } else {
-    for (let i=0; i<passwordLenght; i++){
-      let randomPasswordOne = 
-                Math.floor(Math.random(checkedBoxArray)*checkedBoxArray.length)
-                arrayOne.push(checkedBoxArray[randomPasswordOne])
+    for (let i = 0; i < passwordLenght; i++) {
+      let randomPasswordOne = Math.floor(
+        Math.random(checkedBoxArray) * checkedBoxArray.length
+      );
+      arrayOne.push(checkedBoxArray[randomPasswordOne]);
 
-                let randomPasswordTwo = 
-                Math.floor(Math.random(checkedBoxArray)*checkedBoxArray.length)
-                arrayTwo.push(checkedBoxArray[randomPasswordTwo])
+      let randomPasswordTwo = Math.floor(
+        Math.random(checkedBoxArray) * checkedBoxArray.length
+      );
+      arrayTwo.push(checkedBoxArray[randomPasswordTwo]);
     }
   }
-  fillLabels()
+  fillLabels();
+}
