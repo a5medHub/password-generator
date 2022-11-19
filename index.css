@@ -4,16 +4,13 @@ body {
   width: 450px;
   height: 400px;
 }
-
 h1 {
   padding-top: 30px;
   color: #4adf86;
 }
-
 p {
   color: #d5d4d8;
 }
-
 #generate-btn {
   color: #fff;
   background: #10b981;
@@ -21,17 +18,22 @@ p {
   padding: 9px 17px;
   border-radius: 6px;
 }
-
-.flex-content-1 {
+#radio-five,
+#radio-ten,
+#radio-fifteen {
+  margin: 0 10px;
+}
+.flex-content-1,
+.flex-content-2 {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   margin: 20px 0;
-  padding: 20px 0;
+  padding: 10px 0;
   border: 3px inset #d5d4d8;
   color: #d5d4d8;
 }
-
-.flex-content-2 {
+.flex-content-2,
+.flex-content-3 {
   display: flex;
   justify-content: space-around;
 }
@@ -42,5 +44,11 @@ p {
   background: #273549;
   border-radius: 6px;
   border: none;
-  padding: 7px;
+  font-size: 14px;
+  padding: 11px 0px;
+  width: 200px;
+  text-align: center;
+}
+#theme-Btn {
+  float: right;
 }
