@@ -85,4 +85,10 @@ const symbols = [
   "/",
 ];
 let themeBtn = document.getElementById("theme-Btn");
-themeBtn.addEventListener("click", function onClick(event) {});
+themeBtn.addEventListener("click", function onClick(event) {
+  // 👇️ change background color
+  if ((document.body.style.backgroundColor = "#1F2937")) {
+    //dark
+    document.body.style.backgroundColor = "#ECFDF5"; //light
+  }
+});
