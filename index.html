@@ -5,31 +5,56 @@
   <body>
     <div>
       <h1>
-        Generate a <br />
+        Generate a <br style="color: blue" />
         random password
       </h1>
       <p>Never use an insecure password again.</p>
+      <button id="theme-Btn">Button</button>
     </div>
     <div>
-      <button id="generate-btn" onclick="generatePassword()">
+      <button id="generate-btn" onclick="renderRandomPassword()">
         Generate password
       </button>
     </div>
     <hr />
     <div class="radioBtn">
       <form class="flex-content-1">
-          <input type="radio" id="radio-five" name="radio-one" />  
+          <input type="radio" id="radio-five" name="radio-one" checked />  
         <label>5 characters</label>  
         <input type="radio" id="radio-ten" name="radio-one" />  
         <label>10 characters</label>  
         <input type="radio" id="radio-fifteen" name="radio-one" />  
         <label>15 characters</label>
       </form>
+      <form class="flex-content-2">
+         
+        <input
+          type="checkbox"
+          id="checkbox-characters"
+          name="checkbox-one"
+          checked
+        />
+          <label>characters</label>  
+        <input
+          type="checkbox"
+          id="checkbox-numbers"
+          name="checkbox-one"
+          checked
+        />
+          <label>numbers</label>  
+        <input
+          type="checkbox"
+          id="checkbox-symbols"
+          name="checkbox-one"
+          checked
+        />
+          <label>symbols</label>
+      </form>
     </div>
     <div>
-      <form class="flex-content-2">
-        <input type="text" id="password-one" />
-        <input type="text" id="password-two" />
+      <form class="flex-content-3">
+        <label type="text" id="password-one"></label>
+        <label type="text" id="password-two"></label>
       </form>
     </div>
     <script src="index.js"></script>
