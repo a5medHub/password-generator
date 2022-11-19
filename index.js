@@ -159,3 +159,4 @@ function generatePassword(){
   if (arrayOne.length>0) {
     resetArr()
   } else {
+    for (let i=0; i<passwordLenght; i++){
