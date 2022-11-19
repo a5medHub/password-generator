@@ -127,4 +127,6 @@ function checkedCheckBox() {
           }
         }
       }
-    }
+    }else if(checkboxCharacters.checked 
+      && checkboxNumbers.checked 
+      && checkboxSymbols.checked === false){
