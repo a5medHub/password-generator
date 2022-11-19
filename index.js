@@ -99,3 +99,4 @@ themeBtn.addEventListener("click", function onClick(event) {
 
 let checkboxCharacters = document.getElementById("checkbox-characters");
 let checkboxNumbers = document.getElementById("checkbox-numbers");
+let checkboxSymbols = document.getElementById("checkbox-symbols");
