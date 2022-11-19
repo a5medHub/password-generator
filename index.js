@@ -168,3 +168,4 @@ function generatePassword(){
                 Math.floor(Math.random(checkedBoxArray)*checkedBoxArray.length)
                 arrayTwo.push(checkedBoxArray[randomPasswordTwo])
     }
+  }
