@@ -107,3 +107,4 @@ let radioFifteen = document.getElementById("radio-fifteen");
 let passwordOne = document.getElementById("password-one");
 let passwordTwo = document.getElementById("password-two");
 let arrayOne = [];
+let arrayTwo = [];
