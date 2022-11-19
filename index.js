@@ -157,3 +157,4 @@ function checkedRadio() {
 }
 function generatePassword(){
   if (arrayOne.length>0) {
+    resetArr()
