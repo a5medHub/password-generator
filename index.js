@@ -120,8 +120,7 @@ function renderRandomPassword() {
   checkedBoxArray = []
   checkedCheckBox();
 }
-function checkedCheckBox() {
-  checkedBoxArray = [];
+function checkedCharacters() {
   if (
 
 }
