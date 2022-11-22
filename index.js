@@ -112,7 +112,7 @@ function buttonTheme() {
     document.body.style.backgroundColor = "#1F2937"
     document.getElementById("myP").style.color = "#ECFDF5"
   } else {
-    
+    document.body.style.backgroundColor = "#ECFDF5"
   }
 function renderRandomPassword() {
   checkedCheckBox();
