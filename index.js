@@ -117,6 +117,7 @@ function buttonTheme() {
   }
 }
 function renderRandomPassword() {
+  checkedBoxArray = []
   checkedCheckBox();
 }
 function checkedCheckBox() {
