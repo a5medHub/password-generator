@@ -109,6 +109,7 @@ let passwordLenght = 0;
 
 function buttonTheme() {
   if (themeBtn.checked === true) {
+    document.body.style.backgroundColor = "#1F2937"
 function renderRandomPassword() {
   checkedCheckBox();
 }
