@@ -130,7 +130,8 @@ function checkedCharacters() {
 }
 function checkedSymbolsNumbers() {
   if (checkboxSymbolsNumbers.checked){
-    
+    for (let i = 0; i<symbolsNumbers.length; i++) {
+
 }
 
 function checkedRadio() {
