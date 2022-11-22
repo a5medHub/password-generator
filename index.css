@@ -81,4 +81,5 @@ p {
   transition: 0.4s;
 }
 .slider:before {
+  position: absolute;
 }
