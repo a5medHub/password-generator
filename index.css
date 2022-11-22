@@ -88,4 +88,5 @@ p {
   left: 4px;
   bottom: 4px;
   background-color: #fff;
+  transition: 0.4s;
 }
