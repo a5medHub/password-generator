@@ -125,8 +125,8 @@ function checkedCharacters() {
     for (let i = 0; i<characters.length; i++) {
       checkedBoxArray.push(characters[i])
 
+    }
 
-      
     }
 
 function checkedRadio() {
