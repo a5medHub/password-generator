@@ -93,3 +93,5 @@ p {
 input:checked + .slider {
   background-color: #2196f3;
 }
+input:focus + .slider {
+}
