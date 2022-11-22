@@ -129,10 +129,12 @@ function checkedCharacters() {
   checkedSymbolsNumbers();
 }
 function checkedSymbolsNumbers() {
-  if (checkboxSymbolsNumbers.checked){
-    for (let i = 0; i<symbolsNumbers.length; i++) {
-      checkedBoxArray.push(symbolsNumbers[i])
-
+  if (checkboxSymbolsNumbers.checked) {
+    for (let i = 0; i < symbolsNumbers.length; i++) {
+      checkedBoxArray.push(symbolsNumbers[i]);
+    }
+  }
+  checkedRadio();
 }
 
 function checkedRadio() {
