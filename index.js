@@ -109,11 +109,13 @@ let passwordLenght = 0;
 
 function buttonTheme() {
   if (themeBtn.checked === true) {
-    document.body.style.backgroundColor = "#1F2937"
-    document.getElementById("myP").style.color = "#ECFDF5"
+    document.body.style.backgroundColor = "#1F2937";
+    document.getElementById("myP").style.color = "#ECFDF5";
   } else {
-    document.body.style.backgroundColor = "#ECFDF5"
+    document.body.style.backgroundColor = "#ECFDF5";
+    document.getElementById("myP").style.color = "#4ADF86";
   }
+}
 function renderRandomPassword() {
   checkedCheckBox();
 }
