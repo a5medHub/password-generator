@@ -80,3 +80,5 @@ p {
   background-color: #ccc;
   transition: 0.4s;
 }
+.slider:before {
+}
