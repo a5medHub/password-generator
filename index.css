@@ -90,3 +90,5 @@ p {
   background-color: #fff;
   transition: 0.4s;
 }
+input:checked + .slider {
+}
