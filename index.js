@@ -121,7 +121,7 @@ function renderRandomPassword() {
   checkedCheckBox();
 }
 function checkedCharacters() {
-  if (
+  if (checkboxCharacters.checked){
 
 }
 function checkedRadio() {
