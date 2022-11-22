@@ -66,4 +66,5 @@ p {
   float: right;
 }
 .switch input {
+  opacity: 0;
 }
