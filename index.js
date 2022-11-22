@@ -93,18 +93,6 @@ const symbolsNumbers = [
   "?",
   "/",
 ];
-let themeBtn = document.getElementById("theme-Btn");
-themeBtn.addEventListener("click", function onClick(event) {
-  // 👇️ change background color
-  if ((document.body.style.backgroundColor = "#1F2937")) {
-    //dark
-    document.body.style.backgroundColor = "#ECFDF5"; //light
-  } else {
-    document.body.style.backgroundColor = "#1F2937";
-  }
-  // 👇️ optionally change text color
-  //document.body.style.color = 'white';
-});
 
 let checkboxCharacters = document.getElementById("checkbox-characters");
 let checkboxNumbers = document.getElementById("checkbox-numbers");
