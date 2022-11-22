@@ -95,7 +95,7 @@ const symbolsNumbers = [
 ];
 let themeBtn = document.getElementById("theme-Btn");
 let checkboxCharacters = document.getElementById("checkbox-characters");
-
+let checkboxSymbolsNumbers = document.getElementById("checkbox-symbolsNumbers");
 let generateBtn = document.getElementById("generate-btn");
 let radioFive = document.getElementById("radio-five");
 let radioTen = document.getElementById("radio-ten");
