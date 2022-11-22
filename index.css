@@ -83,4 +83,5 @@ p {
 .slider:before {
   position: absolute;
   content: "";
+  height: 26px;
 }
