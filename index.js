@@ -108,6 +108,7 @@ let checkedBoxArray = [];
 let passwordLenght = 0;
 
 function buttonTheme() {
+  if (themeBtn.checked === true) {
 function renderRandomPassword() {
   checkedCheckBox();
 }
