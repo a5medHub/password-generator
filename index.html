@@ -1,45 +1,39 @@
 <html>
 
 <head>
-  <link rel="stylesheet" href="index.css" />
+  <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
-  <div>
-    <div class="theme-Header">
-      <h3 id="myP">light/dark</h3>
-      <label class="switch">
-        <input id="theme-Btn" onclick="buttonTheme()" type="checkbox" checked>
-        <span class="slider round"></span>
-      </label>
-    </div>
-    <h1>
-      Generate a <br style="color: blue" />
-      random password
-    </h1>
-    <p>Never use an insecure password again.</p>
+  <div class="theme-Header">
+    <h3 id="myP">light/dark</h3>
+    <label class="switch">
+      <input id="theme-Btn" onclick="buttonTheme()" type="checkbox" checked>
+      <span class="slider round"></span>
+    </label>
   </div>
   <div>
-    <button id="generate-btn" onclick="renderRandomPassword()">
-      Generate password
-    </button>
+    <h1>Generate a <br style="color:blue;"> random password</h1>
+    <p id="chaneColorP">Never use an insecure password again.</p>
+  </div>
+  <div>
+    <button id="generate-btn" onclick="renderRandomPassword()">Generate password</button>
   </div>
   <hr>
   <div class="radioBtn">
-    <form class="flex-content-1">
-        <input type="radio" id="radio-five" name="radio-one" checked />  
-      <label>5 characters</label>  
-      <input type="radio" id="radio-ten" name="radio-one" />  
-      <label>10 characters</label>  
-      <input type="radio" id="radio-fifteen" name="radio-one" />  
-      <label>15 characters</label>
+    <form class="flex-content-1" id="changeColorRadio">
+        <input type="radio" id="radio-five" name="radio-one" checked>
+        <label>5 characters</label>
+        <input type="radio" id="radio-ten" name="radio-one">
+        <label>10 characters</label>
+        <input type="radio" id="radio-fifteen" name="radio-one">
+        <label>15 characters</label>
     </form>
-    <form class="flex-content-2">
-       
-      <input type="checkbox" id="checkbox-characters" name="checkbox-one" checked />
-        <label>characters</label>  
-      <input type="checkbox" id="checkbox-symbolsNumbers" name="checkbox-one" checked />
-        <label>symbols & numbers</label>  
+    <form class="flex-content-2" id="changeColorCheckbox">
+        <input type="checkbox" id="checkbox-characters" name="checkbox-one" checked>
+        <label>characters</label>
+        <input type="checkbox" id="checkbox-symbolsNumbers" name="checkbox-one" checked>
+        <label>symbols & numbers</label>
     </form>
   </div>
   <div>
