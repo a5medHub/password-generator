@@ -82,4 +82,5 @@ p {
 }
 .slider:before {
   position: absolute;
+  content: "";
 }
