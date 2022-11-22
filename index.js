@@ -117,17 +117,17 @@ function buttonTheme() {
   }
 }
 function renderRandomPassword() {
-  checkedBoxArray = []
+  checkedBoxArray = [];
   checkedCheckBox();
 }
 function checkedCharacters() {
-  if (checkboxCharacters.checked){
-    for (let i = 0; i<characters.length; i++) {
-      checkedBoxArray.push(characters[i])
-
+  if (checkboxCharacters.checked) {
+    for (let i = 0; i < characters.length; i++) {
+      checkedBoxArray.push(characters[i]);
     }
-
-    }
+  }
+  checkedSymbolsNumbers();
+}
 
 function checkedRadio() {
   if (radioFive.checked === true) {
