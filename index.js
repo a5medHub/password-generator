@@ -122,8 +122,13 @@ function renderRandomPassword() {
 }
 function checkedCharacters() {
   if (checkboxCharacters.checked){
+    for (let i = 0; i<characters.length; i++) {
+      checkedBoxArray.push(characters[i])
 
-}
+
+      
+    }
+
 function checkedRadio() {
   if (radioFive.checked === true) {
     passwordLenght = 5;
