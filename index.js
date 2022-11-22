@@ -128,7 +128,10 @@ function checkedCharacters() {
   }
   checkedSymbolsNumbers();
 }
-function checkedSymbolsNumbers() {}
+function checkedSymbolsNumbers() {
+  if (checkboxSymbolsNumbers.checked){
+    
+}
 
 function checkedRadio() {
   if (radioFive.checked === true) {
