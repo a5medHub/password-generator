@@ -63,4 +63,5 @@ p {
   position: relative;
   width: 60px;
   height: 34px;
+  float: right;
 }
