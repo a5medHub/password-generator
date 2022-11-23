@@ -4,11 +4,11 @@ body {
   width: 450px;
   height: 400px;
 }
-h1 {
+#hSpanOne {
   padding-top: 30px;
   color: #fff;
 }
-#hspan {
+#hSpanTwo {
   color: #4adf86;
 }
 p {
