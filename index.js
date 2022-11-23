@@ -119,7 +119,7 @@ function buttonTheme() {
     document.getElementById("changeColorRadio").style.color = "#D5D4D8";
     document.getElementById("changeColorCheckbox").style.color = "#D5D4D8";
     document.getElementById("chaneColorP").style.color = "#D5D4D8";
-    document.getElementById("hspan").style.color = "#fff";
+    document.getElementById("hSpanOne").style.color = "#fff";
   } else {
     document.body.style.backgroundColor = "#ECFDF5";
     document.getElementById("myP").style.color = "#4ADF86";
