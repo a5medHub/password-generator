@@ -126,6 +126,7 @@ function buttonTheme() {
     document.getElementById("changeColorRadio").style.color = "#273549";
     document.getElementById("changeColorCheckbox").style.color = "#273549";
     document.getElementById("chaneColorP").style.color = "#273549";
+    document.getElementById("hspan").style.color = "#4adf86";
   }
 }
 function renderRandomPassword() {
