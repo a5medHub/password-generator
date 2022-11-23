@@ -6,9 +6,10 @@ body {
 }
 h1 {
   padding-top: 30px;
-  color: #4adf86;
+  color: #fff;
 }
 #hspan {
+  color: #4adf86;
 }
 p {
   color: #d5d4d8;
